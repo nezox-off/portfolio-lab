@@ -29,12 +29,6 @@ export default function Contacts() {
         <button className="btn" type="submit">Надіслати</button>
         {sent && <p>Дякую! Ваше повідомлення підготовлено до надсилання.</p>}
       </form>
-      <p className="gap">
-        Електронна пошта: <b>{contacts.email}</b><br />
-        GitHub: <b>{contacts.github}</b><br />
-        Telegram: <b>{contacts.telegram}</b><br />
-        Місто: {contacts.city}
-      </p>
     </section>
   )
 }
